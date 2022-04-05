@@ -1,0 +1,531 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: Myriad Pro;
+    transition: 0.5s ease-in-out;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* ===================Layout width ====================== */
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-sp{
+    width: 30.00%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+/* ================end=============== */
+/* ==============header part================= */
+.header{
+    background: url(../img/hero.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 90px;
+}
+.nav{
+    padding-top: 30px;
+}
+.nav a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-family: Myriad Pro;
+    color: #000b2c;
+    font-weight: bold;
+}
+.nav a:hover{
+    font-size: 23px;
+    color: blue;
+}
+.logo-part{
+    padding-left: 85px;
+    padding-top: 30px;
+    
+}
+.logo-part img{
+    width: 75%;
+}
+.hero-write{
+    padding-top: 110px;
+}
+.heading{
+    font-style: italic;
+    font-size: 65px;
+    font-weight: 550;
+    letter-spacing: 3px;
+    color: #000a2c;
+}
+.heading-2{
+    padding-top: 35px;
+    font-size: 28px;
+    color: #ff4b00;
+}
+.pg{
+    width: 40%;
+    font-size: 15px;
+    line-height: 20px;
+    color: #122341;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff4a00;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #000a2c;
+    width: 150px;
+    box-shadow: 3px 3px 5px red;
+}
+
+/* ==============section 2 ============== */
+
+.sec-2-img-part{
+    width: 73%;
+    float: left;
+    position: relative;
+}
+.sec-2-img img{
+    width: 95%;
+    margin-left: 140px;
+    
+}
+.sec-2-img p{
+    width: 35%;
+    margin-left: 650px;
+    line-height: 35px;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    color: #fff;
+}
+.sec-2-write{
+    width: 20%;
+    float: left;
+}
+
+.sec-2-heading{
+    font-size: 70px;
+    padding-left: 60px;
+    padding-top: 250px;
+    font-weight: 550;
+    font-style: italic;
+}
+.sec-2-btn{
+    margin-left: 60px;
+    margin-top: 90px;
+}
+
+/* =========================section 3================== */
+
+.sec-3-img-part{
+    width: 80%;
+    float: left;
+    position: relative;
+    top: -5px;
+}
+.sec-3-img img{
+    width: 80.5%;
+}
+.pg-1{
+    width: 35%;
+    margin-left: 20px;
+    line-height: 35px;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    color: #fff;
+}
+
+.sec-3-write{
+    width: 20%;
+    float: left;
+    text-align: end;
+}
+
+.sec-3-heading{
+    padding-top: 250px;
+    font-size: 70px;
+    padding-right: 40px;
+    text-align: end;
+
+}
+.sec-3-write .sec-3-btn{
+    margin-top: 90px;
+    margin-right: 40px;
+} 
+
+/* =========================section 4=================== */
+
+.sec-4-write{
+    width: 30%;
+    float: left;
+    padding-left: 70px;
+}
+.sec-4-heading{
+    padding-top: 180px;
+}
+.sec-4-btn{
+    margin-top: 80px;
+}
+
+.sec-4-img-part{
+    width: 70%;
+    float: left;
+    position: relative;
+    top: -9px;
+}
+.sec-4-img img{
+    width: 100%;
+    padding-left: 10px;
+}
+ 
+.sec-4-pg {
+    width: 40%;
+    text-align: end;
+    position: absolute;
+    top: 30%;
+    left: 450px;
+}
+
+
+/* =====================section 5 ================== */
+.underline{
+    display: block;
+    border-bottom: 3px solid  #122341;
+    position: relative;
+    top: -13px;
+}
+
+
+.sec-5-content{
+    margin-top:20px;
+    border: 7px solid #122341;
+}
+.sec-5-img img{
+    width: 70%;
+    padding-left: 70px;
+    padding-top: 85px;
+}
+
+.sec-5-write{
+    text-align: center;
+    padding-top: 80px;
+}
+.sec-5-heading{
+    font-size: 50px;
+    font-weight: 500;
+}
+.sec-5-btn{
+    margin-top: 30px;
+    width: 240px;
+    height: 45px;
+    background-color: #f2b59c;
+    color: #122341;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.sec-5-btn:hover{
+    background-color: #000b2c;
+    color: #fff;
+}
+.sec-5-pg{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.sec-5-bottom-underline{
+    position: relative;
+    padding-top: 35px;
+}
+
+/* =================section 6 ====================== */
+
+.sec-6-heading{
+    text-align: center;
+    font-style: normal;
+    padding: 50px 0px;
+    font-weight: 500;
+    font-size: 60px;
+}
+.sec-6-pg-2{
+    padding: 50px 0px;
+}
+.one{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* =================section 7=================== */
+
+.sec-7-heading{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.sec-7-content{
+    background-color: #000a2c;
+}
+.sec-7-img img{
+    width: 100%;
+    padding: 20px;
+}
+.sec-7-writing-part{
+    padding-top: 30px;
+}
+.sec-7-h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 50px 0px;
+}
+.sec-7-h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 30px;
+    width: 90%;
+    margin: auto;
+}
+.sec-7-heading-2{
+    padding-top: 110px;
+}
+.sec-h5-2{
+    color: #aaaeb9;
+}
+
+/* ========================section 8 ======================= */
+
+.section-8{
+    padding: 40px 0px;
+}
+.sec-8-heading{
+    text-align: center;
+    color: #122341;
+    font-size: 60px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.sec-8-time-1{
+    background-color: #233e6a;
+    width: 35%;
+    height: 140px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    
+}
+.sec-8-time-1:hover{
+    width: 40%;
+    background-color: #062075;
+    cursor: pointer;
+}
+.sec-8-h3-2 {
+    padding-top: 10px;
+}
+.sec-8-h{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.sec-8-time-2{
+    background-color: #233e6a;
+    width: 35%;
+    height: 140px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.sec-8-time-2:hover{
+    width: 40%;
+    background-color: #062075;
+    cursor: pointer;
+}
+
+/* =======================section 9 ================= */
+
+.section-9{
+    padding-bottom: 100px;
+}
+.sec-9-heading{
+    text-align: center;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.img-1{
+    background-color: #233e6a;
+    margin: 0px 1.5%;
+    box-shadow: 1px 1px 3px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.img-1:hover{
+    width: 31%;
+    box-shadow: 2px 2px 5px;
+
+}
+
+.img-1 img{
+    width: 100%;
+   padding-bottom: 15px;
+   height: 300px;
+}
+
+.sec-9-loca{
+    width: 35%;
+    border: 1px solid wheat;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #ff4a00;
+    padding: 5px 20px;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.img-1 p{
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: #000a2c;
+    padding: 15px;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+
+/* =================Footer part ================== */
+
+.footer{
+    background-color: #000a2c;
+}
+
+.footer-content a{
+    color: #fff;
+    text-decoration: none;
+    display: flow-root;
+    margin: 10px 0px;
+}
+.footer-logo img{
+    padding-top: 50px;
+}
+.footer-h3{
+    padding-top: 70px;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+}
+.info{
+    padding-bottom: 50px;
+}
+.contact{
+    padding-bottom: 50px;
+}
+.footer-icon{
+    padding-bottom: 50px;
+}
+
+.footer-icon a{
+    font-size: 30px;
+    color: #fff;
+}
+.icon-part-2{
+    padding-left: 330px;
+}
+.icon-part-1 a{
+    margin: 0px 2%;
+}
+.icon-part-2 a{
+    font-size: 30px;
+    margin: 0px 2.7%;
+}
+
+/* ****************************End******************************* */
